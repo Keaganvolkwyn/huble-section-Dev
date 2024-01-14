@@ -1,0 +1,192 @@
+
+.text {
+  position: relative;
+  line-height: 150%;
+  font-weight: 600;
+}
+
+.button,
+.button1 {
+  position: absolute;
+  top: 355px;
+  width: 211px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+.button {
+  left: 712px;
+  border-radius: 34px;
+  background-color: #ff5a60;
+  border: 3px solid #ff5a60;
+}
+
+.button1 {
+  left: 468px;
+  border-radius: 32px;
+  background-color: #da4e53;
+}
+
+.bgimage1Icon,
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1897px;
+}
+
+.bgimage1Icon {
+  height: 1079px;
+  object-fit: cover;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 100%;
+}
+
+.monolith {
+  position: absolute;
+  top: 98px;
+  left: 476px;
+  font-size: 20px;
+  color: #f95053;
+}
+
+.useAiSoftware {
+  margin: 0;
+}
+
+.spendLessTime,
+.useAiSoftwareContainer {
+  position: absolute;
+  top: 137px;
+  left: 476px;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.spendLessTime {
+  top: 268px;
+  font-size: 18px;
+  display: inline-block;
+  width: 724px;
+}
+
+.button2,
+.button3 {
+  position: absolute;
+  top: 355px;
+  box-sizing: border-box;
+  width: 211px;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+}
+
+.button2 {
+  left: 468px;
+  border-radius: 32px;
+  background-color: #ff5a60;
+}
+
+.button2:hover {
+  left: 468px;
+  border-radius: 32px;
+  background-color: #DA4E53;
+  text-decoration: #000000;
+}
+
+.button3 {
+  left: 712px;
+  border-radius: 34px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 3px solid #ff5a60;
+}
+
+.button3:hover {
+  left: 712px;
+  border-radius: 34px;
+  background-color: #ff5a60;
+  border: 3px solid #ff5a60;
+}
+
+.monolithhero {
+  position: relative;
+  width: 100%;
+  height: 703px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 15px;
+  color: #fff;
+  font-family: Inter;
+}
+
+.mainContainer{
+  margin: 10px;
+}
+
+.mainContainer .container{
+  padding: 40px 0;
+}
+
+.slideslick {
+  display: contents;
+  padding-top: 200px;
+  position: relative;
+  position: relative;
+  overflow: hidden;
+  margin-left: 440px;
+  margin-right: 440px;
+}
+
+.mainContainer .container img{
+  background-color: transparent;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div h3{
+  color: white;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }

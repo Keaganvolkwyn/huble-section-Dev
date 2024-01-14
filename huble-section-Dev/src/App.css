@@ -1,0 +1,60 @@
+/* .mainContainer{
+  margin: 10px;
+}
+
+.mainContainer .container{
+  padding: 40px 0;
+}
+
+.slideslick {
+  display: contents;
+  padding-top: 200px;
+  position: relative;
+  position: relative;
+  overflow: hidden;
+  margin-left: 440px;
+  margin-right: 440px;
+}
+
+.mainContainer .container img{
+  background-color: transparent;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+div h3{
+  color: white;
+  font-weight: bold;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #f2f2f2;
+  }
+  
+  @keyframes slide {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  } */
